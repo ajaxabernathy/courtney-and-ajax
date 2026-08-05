@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-ac-black: #43362e;
+  --font-arial-narrow: "Arial Narrow", Arial, sans-serif;
+  --font-helvetica-neue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  @apply w-full max-w-[1280px] mx-auto px-4 md:px-16;
+}
+
+.text-box {
+  @apply font-helvetica-neue text-black text-[24px] leading-[140%] tracking-[0%] flex flex-col gap-12;
+}
+
+.text-box-header {
+  @apply font-arial-narrow text-[38px] uppercase tracking-[9%] mb-4;
+}
