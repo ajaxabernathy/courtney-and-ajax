@@ -1,53 +1,47 @@
 import Image from "next/image";
 
-type FlowerType = "flowers-1";
-
-const flowerConfig: Record<
-  FlowerType,
-  { src: string; width: number; height: number; className: string }
-> = {
-  "flowers-1": {
-    src: "/vectors/flowers-1.webp",
-    width: 353,
-    height: 408,
-    className: "absolute bottom-0 -right-[76px] h-auto",
-  },
-};
-
 interface ImageFrameProps {
-  src: string;
-  alt: string;
+  frameSrc: string;
   width: number;
   height: number;
-  flowerType: FlowerType;
+  alt: string;
+  imageSrc?: string;
+  videoSrc?: string;
+  video?: boolean;
 }
 
 export const ImageFrame = ({
-  src,
-  alt,
+  frameSrc,
   width,
   height,
-  flowerType,
+  alt,
+  imageSrc,
+  videoSrc,
+  video = false,
 }: ImageFrameProps) => {
-  const flower = flowerConfig[flowerType];
-  const flowerWidthPercent = (flower.width / width) * 100;
-
   return (
-    <div className="max-w-[1280px] flex justify-center relative">
+    <div
+      className="relative w-full"
+      style={{ aspectRatio: `${width} / ${height}` }}
+    >
+      {video ? (
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 size-full object-cover"
+        >
+          <source src={videoSrc} type="video/mp4" />
+        </video>
+      ) : (
+        <Image src={imageSrc!} alt={alt} fill className="object-cover" />
+      )}
       <Image
-        src={src}
-        alt={alt}
-        width={width}
-        height={height}
-        className="w-full h-auto"
-      />
-      <Image
-        src={flower.src}
+        src={frameSrc}
         alt=""
-        width={flower.width}
-        height={flower.height}
-        className={flower.className}
-        style={{ width: `${flowerWidthPercent}%` }}
+        fill
+        className="object-cover pointer-events-none"
       />
     </div>
   );
