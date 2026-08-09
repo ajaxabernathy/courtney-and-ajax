@@ -92,7 +92,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="[grid-area:overnext] text-box">
+        <div className="[grid-area:overnext] text-body">
           <p>
             Over the next eight years, we traveled from Mexico to Scotland to
             Greece, weathered a pandemic, adopted a cat, made three moves,
@@ -119,7 +119,7 @@ export default function Home() {
           />
         </div>
 
-        <p className="[grid-area:nothing] text-box">
+        <p className="[grid-area:nothing] text-body">
           There is nothing we love more than a slow day at home, preparing a big
           meal, opening a bottle of wine, and sharing it all with the people we
           love. We are drawn to places that feel genuine, full of character,

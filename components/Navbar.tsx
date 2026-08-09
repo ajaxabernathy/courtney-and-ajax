@@ -65,7 +65,7 @@ export const Navbar = () => {
     <nav
       ref={navRef}
       aria-label="Main"
-      className="relative md:max-w-[1065px] w-full mx-auto uppercase text-arial-narrow text-[16px] tracking-[9%] px-5"
+      className="relative md:max-w-[1065px] w-full mx-auto uppercase font-arial-narrow text-[16px] tracking-[9%] px-5"
     >
       <div className="h-[51px] flex items-center">
         <button
