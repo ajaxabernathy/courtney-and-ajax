@@ -27,7 +27,7 @@ export const Navbar = () => {
     { name: "Itinerary", href: "/itinerary" },
     { name: "Travel & Stay", href: "/travel-and-stay" },
     { name: "Explore Crete", href: "/explore-crete" },
-    { name: "Attire", href: "/attire" },
+    // { name: "Attire", href: "/attire" },
     { name: "FAQs", href: "/faqs" },
     { name: "RSVP", href: "/rsvp" },
     { name: "Registry", href: "/registry" },

@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { TextBlock } from "@/components/TextBlock";
+
+export const metadata: Metadata = {
+  title: "Travel & Stay",
+  description:
+    "How to get to Crete and where to stay for Courtney and Ajax's wedding weekend.",
+};
 
 export default function TravelAndStay() {
   return (

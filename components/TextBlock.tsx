@@ -1,5 +1,5 @@
 interface TextBlockProps {
-  heading: string;
+  heading?: string;
   body?: string[];
   offset?: boolean;
   hero?: boolean;

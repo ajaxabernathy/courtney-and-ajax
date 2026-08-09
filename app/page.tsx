@@ -6,27 +6,33 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="wrapper">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="md:hidden w-full h-auto py-[58px] md:py-[132px]"
-      >
-        <source src="/video/hero-animation-mobile.mp4" type="video/mp4" />
-      </video>
+      <div>
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          width={1000}
+          height={562}
+          className="md:hidden w-full h-auto py-[58px] md:py-[132px]"
+        >
+          <source src="/video/hero-animation-mobile.mp4" type="video/mp4" />
+        </video>
 
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="hidden md:block w-full h-auto py-[58px] md:py-[132px]"
-      >
-        <source src="/video/hero-animation.mp4" type="video/mp4" />
-      </video>
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          width={2500}
+          height={1406}
+          className="hidden md:block w-full h-auto py-[58px] md:py-[132px]"
+        >
+          <source src="/video/hero-animation.mp4" type="video/mp4" />
+        </video>
 
-      <h1 className="sr-only">Ajax and Courtney</h1>
+        <h1 className="sr-only">Ajax and Courtney</h1>
+      </div>
 
       <div className="flex justify-center mt-[32px] md:mt-[128px] px-4">
         <Image

@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { FAQ } from "@/components/FAQ";
+
+export const metadata: Metadata = {
+  title: "FAQs",
+  description:
+    "Answers to common questions about travel, accommodations, RSVPs, and attire for Courtney and Ajax's wedding in Crete.",
+};
 
 const faqItems = [
   {
