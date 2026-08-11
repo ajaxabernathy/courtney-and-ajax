@@ -42,7 +42,7 @@ export const ExploreGrid = ({ items }: ExploreGridProps) => {
       : items.filter((item) => activeTags.includes(item.tag));
 
   return (
-    <div className="px-12">
+    <div className="px-[10px] md:px-12">
       <div className="flex flex-wrap gap-x-2 font-cousine uppercase text-[14px] tracking-[8%] -mb-[30px]">
         <span>Filter by:</span>
         {CATEGORIES.map((category, index) => (

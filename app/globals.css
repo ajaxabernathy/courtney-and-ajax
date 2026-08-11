@@ -7,7 +7,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-ac-black: #43362e;
-  --font-arial-narrow: "Arial Narrow", Arial, sans-serif;
+  --font-arial-narrow: var(--font-arial-narrow), Arial, sans-serif;
   --font-helvetica-neue: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-cousine: var(--font-cousine);
 }
@@ -37,7 +37,7 @@ nav a {
 }
 
 .hero-text {
-  @apply font-arial-narrow uppercase text-black text-[38px] tracking-[9%] leading-[1.2] ml-[12%] md:ml-[240px] mt-[165px];
+  @apply font-arial-narrow uppercase text-black text-[20px] md:text-[38px] tracking-[9%] leading-[1.2] ml-[12%] md:ml-[240px] mt-[58px] md:mt-[165px];
 }
 
 .hero-text-center {

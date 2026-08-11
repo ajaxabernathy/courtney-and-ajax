@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cousine } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -8,6 +9,12 @@ const cousine = Cousine({
   variable: "--font-cousine",
   subsets: ["latin"],
   weight: ["400", "700"],
+});
+
+const arialNarrow = localFont({
+  src: "../public/fonts/ArialNarrow.woff2",
+  variable: "--font-arial-narrow",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +28,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${cousine.variable} h-full antialiased`}>
+    <html
+      lang="en"
+      className={`${cousine.variable} ${arialNarrow.variable} h-full antialiased`}
+    >
       <body className="min-h-full flex flex-col">
         <Navbar />
         {children}

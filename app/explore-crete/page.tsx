@@ -68,7 +68,7 @@ export default function ExploreCrete() {
           />
         </div>
 
-        <div className="ml-auto -mr-[8%] pr-8 mt-[34px] md:mt-[74px]">
+        <div className="ml-auto md:-mr-[8%] md:pr-8 mt-[34px] md:mt-[74px]">
           <Image
             src="/images/crete-sheep.webp"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
