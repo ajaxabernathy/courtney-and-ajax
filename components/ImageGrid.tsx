@@ -12,8 +12,8 @@ export const ImageGrid = ({
   bottomRightImage,
 }: ImageGridProps) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div className="relative w-full aspect-[5/3] md:col-span-2">
+    <div className="grid grid-cols-2 gap-4">
+      <div className="relative w-full aspect-[1112/677] col-span-2">
         <Image
           src={topImage.src}
           alt={topImage.alt}
@@ -22,7 +22,7 @@ export const ImageGrid = ({
         />
       </div>
 
-      <div className="relative w-full aspect-[7/8]">
+      <div className="relative w-full aspect-[547/677]">
         <Image
           src={bottomLeftImage.src}
           alt={bottomLeftImage.alt}
@@ -31,7 +31,7 @@ export const ImageGrid = ({
         />
       </div>
 
-      <div className="relative w-full aspect-[7/8]">
+      <div className="relative w-full aspect-[547/677]">
         <Image
           src={bottomRightImage.src}
           alt={bottomRightImage.alt}

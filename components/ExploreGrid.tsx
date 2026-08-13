@@ -37,18 +37,14 @@ interface ExploreGridProps {
 }
 
 export const ExploreGrid = ({ items }: ExploreGridProps) => {
-  const [activeTags, setActiveTags] = useState<Category[]>([]);
+  const [activeTag, setActiveTag] = useState<Category | null>(null);
 
   const toggleTag = (tag: Category) => {
-    setActiveTags((prev) =>
-      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag],
-    );
+    setActiveTag((prev) => (prev === tag ? null : tag));
   };
 
   const visibleItems =
-    activeTags.length === 0
-      ? items
-      : items.filter((item) => activeTags.includes(item.tag));
+    activeTag === null ? items : items.filter((item) => item.tag === activeTag);
 
   return (
     <div className="px-[10px] md:px-12">
@@ -59,9 +55,9 @@ export const ExploreGrid = ({ items }: ExploreGridProps) => {
             <button
               type="button"
               onClick={() => toggleTag(category)}
-              aria-pressed={activeTags.includes(category)}
+              aria-pressed={activeTag === category}
               className={`cursor-pointer uppercase ${
-                activeTags.includes(category) ? "underline" : ""
+                activeTag === category ? "underline" : ""
               }`}
             >
               {category}
@@ -92,7 +88,7 @@ const ExploreCard = ({ title, tag, body, image }: ExploreCardData) => {
 
       <div className="flex flex-col gap-4 mt-4">
         {body.map((paragraph, index) => (
-          <p key={index} className="text-body text-justify">
+          <p key={index} className="text-body-sm text-justify">
             {typeof paragraph === "string"
               ? paragraph
               : paragraph.map((segment, segmentIndex) => {

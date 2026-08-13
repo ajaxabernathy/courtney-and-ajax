@@ -15,7 +15,7 @@ export default function Home() {
           playsInline
           width={1000}
           height={562}
-          className="md:hidden w-full h-auto py-[58px] md:py-[132px]"
+          className="md:hidden w-full h-auto pt-[48px] pb-[58px]"
         >
           <source src="/video/hero-animation-mobile.mp4" type="video/mp4" />
         </video>
@@ -27,7 +27,7 @@ export default function Home() {
           playsInline
           width={2500}
           height={1406}
-          className="hidden md:block w-full h-auto py-[58px] md:py-[132px]"
+          className="hidden md:block w-full h-auto py-[132px]"
         >
           <source src="/video/hero-animation.mp4" type="video/mp4" />
         </video>
@@ -69,14 +69,14 @@ export default function Home() {
         />
       </div>
 
-      <div className="flex flex-col md:flex-row flex-col-reverse gap-[57px] mb-[74px] md:mb-[150px]">
+      <div className="flex md:flex-row flex-col-reverse gap-[57px] mb-[74px] md:mb-[150px]">
         <div className="w-full md:w-[461px]">
           <Image
             src="/images/imessage.webp"
             alt="Courtney and Ajax at Wissahickon Park in Philadelphia"
             width={461}
             height={622}
-            className="object-contain mx-auto pr-12"
+            className="object-contain mx-auto pr-16 md:pr-12"
           />
         </div>
 
@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-[96px] mb-[48px] md:mt-[236px] md:mb-[137px]">
+      <div className="mt-[74px] mb-[48px] md:mt-[236px] md:mb-[137px]">
         <TextBlock
           body={[
             "Over the next eight years, we traveled from Mexico to Scotland to Greece, weathered a pandemic, adopted a cat, made three moves, including one across state lines, welcomed seven nieces and nephews with one more on the way, celebrated eight Christmases and four Passovers, and entered our thirties together.",
@@ -121,7 +121,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="mb-[96px] md:mb-[150px]">
+      <div className="mb-[126px] md:mb-[150px]">
         <ImageGrid
           topImage={{ src: "/images/gram-3.webp", alt: "Placeholder" }}
           bottomLeftImage={{
@@ -135,7 +135,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="flex items-center">
+      <div className="flex flex-col-reverse md:flex-row items-center gap-[64px] md:gap-12 mb-[152px]">
         <p className="text-body max-w-[432px]">
           We cannot wait to share this beautiful place, this incredible food,
           and plenty of wine with all of you. Cheers!{" "}

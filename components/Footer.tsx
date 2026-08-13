@@ -14,7 +14,7 @@ export default function Footer() {
         alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
         width={119}
         height={166}
-        className={`${isFaq ? "invert" : ""} mx-auto`}
+        className={`${isFaq ? "invert" : ""} mx-auto max-w-[72px] md:max-w-none`}
       />
     </div>
   );

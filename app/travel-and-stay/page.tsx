@@ -12,23 +12,35 @@ export default function TravelAndStay() {
   return (
     <main>
       <div className="wrapper">
-        <h1 className="hero-text">Travel & Stay</h1>
+        <TextBlock hero offset heading="Travel & Stay" />
 
-        <div className="flex justify-center mt-[116px]">
-          <Image
-            src="/vectors/wedding-map-crete.webp"
-            alt="Travel and Stay"
-            width={1114}
-            height={380}
-          />
+        <div className="flex justify-center mt-[54px] md:mt-[116px]">
+          <div className="hidden md:block">
+            <Image
+              src="/vectors/wedding-map-crete.webp"
+              alt="Travel and Stay"
+              width={1114}
+              height={380}
+            />
+          </div>
+
+          <div className="md:hidden">
+            <Image
+              src="/vectors/wedding-map-crete-mobile.webp"
+              alt="Travel and Stay"
+              width={800}
+              height={456}
+            />
+          </div>
         </div>
 
-        <div className="mt-[236px] mb-[137px]">
+        <div className="md:mt-[236px] mt-4 mb-[32px] md:mb-[55px]">
           <TextBlock
             heading="How to get there"
             body={[
-              "Many guests will likely start in Athens, and we hope you can spend a day or two exploring the city before heading to Crete. From Athens, both Chania and Heraklion are about a one-hour flight, but you may also find seasonal direct flights from other European cities if you’re looking to work in a fun stopover. If you prefer a slower, more scenic route, you can also take the overnight ferry from Piraeus, Athens’ port, to Chania.",
-              "For the wedding weekend, Chania is the easiest option. It’s about a 50-minute drive from Kissamos, where we hope most guests will stay. Heraklion is another option, but it’s about a 2.5-hour drive from the Kissamos area.",
+              "Our wedding weekend will be based in Kissamos, on the west end of Crete. Many guests will likely start in Athens, and we hope you can spend a day or two exploring the city before heading to Crete. From Athens, both Chania and Heraklion are about a one-hour flight, but you may also find seasonal direct flights from other European cities if you’re looking to work in a fun stopover. If you prefer a slower, more scenic route, you can also take the overnight ferry from Piraeus, Athens’ port, to Chania.",
+
+              "For the wedding weekend, Chania is the easiest option. It’s about a 50-minute drive from Kissamos, where we hope most guests will stay. Heraklion is another option, but it’s about a 2.5-hour drive from the Kissamos area. ",
             ]}
           />
         </div>
@@ -42,11 +54,14 @@ export default function TravelAndStay() {
           />
         </div>
 
-        <div className="mt-[96px] mb-[137px]">
+        <div className="mt-[74px] md:mt-[96px] mb-[74px] md:mb-[96px]">
           <TextBlock
             heading="Where to Stay"
             body={[
-              "We recommend staying in or around Kissamos, where we hope most guests will be based and where wedding-day shuttles will depart. We’ll be staying nearby with our families in Kounoupitsa, just south of town. There are plenty of villas and Airbnbs in the area, as well as our room block at Kissamos Hotel. There’s also a hotel, Kaliviani Traditional Hotel, right near the restaurant if you prefer to be walking distance. ",
+              "We recommend staying in or around Kissamos, where we hope most guests will be based and where wedding-day shuttles will depart. We’ll be staying nearby with our families in Kounoupitsa, just south of town.",
+
+              "There are plenty of villas and Airbnbs in the area, as well as our room block at Kissamos Hotel. There’s also a hotel, Kaliviani Traditional Hotel, right near the restaurant if you prefer to be walking distance.",
+
               "Falasarna and Kavousi are also great options if you plan to arrange your own transportation.  Falasarna is closer to the venue and known for its incredible sunsets, while Kavousi offers a quieter village stay nearby. ",
             ]}
           />
@@ -61,7 +76,7 @@ export default function TravelAndStay() {
         />
       </div>
 
-      <div className="mt-[96px] mb-[137px] wrapper">
+      <div className="mt-[57px] md:mt-[78px] mb-[52px] md:mb-[137px] wrapper">
         <TextBlock
           heading="Transportation"
           body={[

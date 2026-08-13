@@ -101,7 +101,7 @@ export const Navbar = () => {
             initial="hidden"
             animate="visible"
             exit="hidden"
-            className="absolute inset-0 bg-black h-screen z-10 px-5"
+            className="absolute inset-0 bg-[#0655BB] h-screen z-10 px-5"
           >
             <div className="w-full h-[51px] flex">
               <button

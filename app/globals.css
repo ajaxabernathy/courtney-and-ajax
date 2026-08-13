@@ -25,7 +25,11 @@ nav a {
 }
 
 .text-body {
-  @apply font-helvetica-neue text-[18px] md:text-[24px] leading-[120%] md:leading-[140%] tracking-[0%];
+  @apply font-helvetica-neue text-[18px] md:text-[24px] leading-[120%] md:leading-[140%] tracking-[0%] text-justify;
+}
+
+.text-body-sm {
+  @apply font-helvetica-neue text-[16px] md:text-[18px] leading-[120%] md:leading-[140%] tracking-[0%] text-justify;
 }
 
 .text-box-header {
@@ -33,7 +37,7 @@ nav a {
 }
 
 .text-box-header-sm {
-  @apply font-arial-narrow text-[18px] md:text-[28px] uppercase tracking-[9%] mb-4;
+  @apply font-arial-narrow text-[18px] md:text-[28px] uppercase tracking-[9%];
 }
 
 .hero-text {

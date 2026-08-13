@@ -10,9 +10,11 @@ export const metadata: Metadata = {
 export default function Itinerary() {
   return (
     <main className="wrapper flex flex-col flex-1">
-      <h1 className="hero-text">Itinerary</h1>
       <div>
         <TextBlock
+          offset
+          hero
+          heading="Itinerary"
           body={[
             "We’re still putting the finishing touches on the wedding weekend, but we recommend arriving by Wednesday so you have some time to settle in, acclimate, and enjoy Crete before the festivities begin.",
 

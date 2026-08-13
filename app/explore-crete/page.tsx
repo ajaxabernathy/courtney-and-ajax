@@ -244,9 +244,11 @@ export default function ExploreCrete() {
   return (
     <main className="flex flex-col">
       <div className="flex flex-col wrapper">
-        <h1 className="hero-text">Explore Crete</h1>
         <div>
           <TextBlock
+            offset
+            hero
+            heading="Explore Crete"
             body={[
               "WE CAME TO CRETE looking for rest and found much more than we expected. From the moment we landed, our nervous systems softened, our pace slowed, and Crete began to feel like exactly where we were meant to be. We fell in love with the balance of it all — good food and untamed landscapes, restful days and unexpected adventures, awe-inspiring gorges, secret caves and the scent of herbs warmed by the sun.",
               "Most of all, we fell in love with the SPIRIT OF CRETE and the warmth of its people. It means so much to return to a place that feels so right and to experience it with the people we love most. We hope this journey offers each of you a sense of DISCOVERY, BEAUTY, AND CONNECTION — and memories that stay with us long after we leave.",
