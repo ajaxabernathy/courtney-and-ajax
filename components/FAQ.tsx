@@ -17,7 +17,7 @@ const FAQItem = ({ question, answer }: FAQItemData) => {
         type="button"
         onClick={() => setIsOpen((open) => !open)}
         aria-expanded={isOpen}
-        className="flex w-full items-start justify-between gap-4 text-left cursor-pointer border-t border-ac-black py-2"
+        className="flex w-full items-start justify-between gap-4 text-left cursor-pointer border-t border-white py-2"
       >
         <span className="text-box-header-sm">{question}</span>
         <span aria-hidden="true" className="text-box-header-sm">

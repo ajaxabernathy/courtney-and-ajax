@@ -69,11 +69,13 @@ const faqItems = [
 
 export default function FAQPage() {
   return (
-    <main className="wrapper">
-      <h1 className="hero-text">FAQs</h1>
+    <main className="bg-[#0655BB] text-white">
+      <div className="wrapper">
+        <h1 className="hero-text text-white">FAQs</h1>
 
-      <div className="mt-[116px] mb-[137px]">
-        <FAQ items={faqItems} />
+        <div className="mt-[116px] mb-[137px] text-white">
+          <FAQ items={faqItems} />
+        </div>
       </div>
     </main>
   );

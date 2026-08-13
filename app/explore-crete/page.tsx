@@ -256,7 +256,7 @@ export default function ExploreCrete() {
 
         <div className="ml-auto md:-mr-[8%] md:pr-8 mt-[34px] md:mt-[74px]">
           <Image
-            src="/images/crete-sheep.webp"
+            src="/images/courtney-sheep.webp"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
             width={916}
             height={600}
@@ -283,7 +283,7 @@ export default function ExploreCrete() {
 
         <div className="mt-[0px] md:mt-[0px]">
           <Image
-            src="/images/balos.webp"
+            src="/images/champers.webp"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
             width={1280}
             height={789}
@@ -318,7 +318,7 @@ export default function ExploreCrete() {
       <p className="hero-text-center mb-[116] md:mb-[260px] wrapper">
         Click{" "}
         <a
-          href="https://maps.google.com"
+          href="https://maps.app.goo.gl/FwAkpKzuPNZuwbvx7"
           target="_blank"
           rel="noopener noreferrer"
         >

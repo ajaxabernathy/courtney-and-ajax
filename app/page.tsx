@@ -1,5 +1,6 @@
 import { HeroFrame } from "@/components/HeroFrame";
 import { ImageFrame } from "@/components/ImageFrame";
+import { ImageGrid } from "@/components/ImageGrid";
 import { TextBlock } from "@/components/TextBlock";
 import Image from "next/image";
 
@@ -60,61 +61,87 @@ export default function Home() {
       <div className="mt-[96px] mb-[48px] md:mt-[236px] md:mb-[137px]">
         <TextBlock
           offset
-          heading="How we met"
+          heading="How it began"
           body={[
-            "Our story began in New York City on a whim, and with a little persistence from our good friend Jennie. She convinced Courtney to make a 40-minute trek across Brooklyn at midnight with her and Kim to meet Ajax, the baby brother of Jennie’s best friend from medical school, Alice.",
-            "Courtney reluctantly agreed, having no idea the journey would change her life.",
-            "When they arrived, Kim immediately put on YouTube karaoke, and while everyone else launched into “Without Me” by Eminem, Courtney and Ajax struck up a conversation of their own. They wandered over to Ajax’s shelves, admiring his collection of special tchotchkes and talking about the stories behind each one.",
+            "Our story began in New York City on a whim, with a little persistence from our good friend Jennie. One night, while visiting, she convinced Courtney and Kim to make a 40-minute trek across Brooklyn at midnight to meet Ajax, her best friend, Alice’s, little brother. Courtney reluctantly agreed, having no idea the journey would change her life.",
+            "When they arrived, Kim immediately put on YouTube karaoke, and before long everyone was singing “Without Me” by Eminem. Courtney and Ajax, however, struck up a conversation of their own. They wandered over to Ajax’s room, where Courtney admired his collection of special tchotchkes, and the two started talking about the stories behind each one. She remembers thinking she had never met such an interesting man. As the night came to an end, Jennie insisted that Courtney and Ajax exchange phone numbers. Thank you, J!",
           ]}
         />
       </div>
 
-      <div className="flex flex-col md:flex-row gap-4 md:gap-0 md:justify-between md:pl-6 md:pr-12 mb-[74px] md:mb-[150px]">
-        <Image
-          src="/vectors/conversation.webp"
-          alt="Courtney and Ajax at Wissahickon Park in Philadelphia"
-          width={672}
-          height={127}
-        />
-
-        <div className="w-[41px] h-[43px] md:w-[81px] md:h-[84px] ml-[26%]">
-          <Image
-            src="/images/color-fly.png"
-            alt="Courtney and Ajax at Wissahickon Park in Philadelphia"
-            width={81}
-            height={84}
-          />
-        </div>
-      </div>
-
-      <div className="story-order grid grid-cols-1 md:grid-cols-2 gap-y-[74px] md:gap-y-[128px] mb-[148px]">
-        <div className="[grid-area:imessage] relative w-[340px] md:w-[461px] md:ml-0">
+      <div className="flex flex-col md:flex-row flex-col-reverse gap-[57px] mb-[74px] md:mb-[150px]">
+        <div className="w-full md:w-[461px]">
           <Image
             src="/images/imessage.webp"
             alt="Courtney and Ajax at Wissahickon Park in Philadelphia"
             width={461}
             height={622}
-            className="object-contain"
+            className="object-contain mx-auto pr-12"
           />
         </div>
 
-        <div className="[grid-area:overnext] text-body">
-          <p>
-            Over the next eight years, we traveled from Mexico to Scotland to
-            Greece, weathered a pandemic, adopted a cat, made three moves,
-            including one across state lines, welcomed seven nieces and nephews
-            with one more on the way, celebrated eight Christmases, a few
-            Passovers, and entered our thirties together. Then, on a beach in
-            Point Reyes, California, Ajax asked Courtney to marry him and here
-            we are!
-          </p>
-          <p>
-            Then, on a beach in Point Reyes, California, Ajax asked Courtney to
-            marry him and here we are!
-          </p>
-        </div>
+        <div className="flex flex-col gap-4 md:gap-0 md:pt-[100px] lg:pt-[140px]">
+          <Image
+            src="/vectors/conversation.webp"
+            alt="Courtney and Ajax at Wissahickon Park in Philadelphia"
+            width={672}
+            height={127}
+          />
 
-        <div className="[grid-area:frame] w-full max-w-[400px] md:ml-auto">
+          <div className="w-[41px] h-[43px] md:w-[81px] md:h-[84px] ml-[26%]">
+            <Image
+              src="/images/color-fly.png"
+              alt="Courtney and Ajax at Wissahickon Park in Philadelphia"
+              width={81}
+              height={84}
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-[96px] mb-[48px] md:mt-[236px] md:mb-[137px]">
+        <TextBlock
+          body={[
+            "Over the next eight years, we traveled from Mexico to Scotland to Greece, weathered a pandemic, adopted a cat, made three moves, including one across state lines, welcomed seven nieces and nephews with one more on the way, celebrated eight Christmases and four Passovers, and entered our thirties together.",
+
+            "Then, on a beach in Point Reyes, California, Ajax asked Courtney to marry him and here we are!",
+          ]}
+        />
+      </div>
+
+      <div className="mt-[96px] mb-[48px] md:mt-[236px] md:mb-[137px]">
+        <TextBlock
+          offset
+          heading="Why Gramvousa?"
+          body={[
+            "When we travel, we’re drawn to places with character, history, and warmth, which is exactly why Crete really stuck with us after we left. Gramvousa Restaurant embodied everything we loved about the island, so much so that we ate there twice.",
+            "When we told one of our favorite staff members at the hotel that we had been, he convinced us to go back with him and see the property through his eyes. After a raki-filled lunch, he walked us around, picking herbs for us to smell and pointing out zucchini and tomatoes growing nearby. Then we noticed a few event tables outside and thought, huh... people must have parties here.",
+            "We didn’t think much more of it until we floated the idea of getting married there to our families, and their excitement made the decision feel easy. So... here we are. Wish us luck!",
+          ]}
+        />
+      </div>
+
+      <div className="mb-[96px] md:mb-[150px]">
+        <ImageGrid
+          topImage={{ src: "/images/gram-3.webp", alt: "Placeholder" }}
+          bottomLeftImage={{
+            src: "/images/gram-1.webp",
+            alt: "Placeholder",
+          }}
+          bottomRightImage={{
+            src: "/images/gram-2.webp",
+            alt: "Placeholder",
+          }}
+        />
+      </div>
+
+      <div className="flex items-center">
+        <p className="text-body max-w-[432px]">
+          We cannot wait to share this beautiful place, this incredible food,
+          and plenty of wine with all of you. Cheers!{" "}
+        </p>
+
+        <div className="w-full max-w-[562px] md:ml-auto">
           <ImageFrame
             frameSrc="/images/image-frame-01.png"
             width={2000}
@@ -124,20 +151,7 @@ export default function Home() {
             alt="Courtney and Ajax"
           />
         </div>
-
-        <p className="[grid-area:nothing] text-body">
-          There is nothing we love more than a slow day at home, preparing a big
-          meal, opening a bottle of wine, and sharing it all with the people we
-          love. We are drawn to places that feel genuine, full of character,
-          history, and warmth, which is exactly why Crete feels so special to
-          us. We cannot wait to share this beautiful place, this incredible
-          food, and plenty of wine with all of you. Cheers, y’all!
-        </p>
       </div>
-
-      <p className="hero-text-center mt-[142px] md:mt-[460px] mb-[116] md:mb-[260px]">
-        Stay tuned for more information in the next few months!
-      </p>
     </main>
   );
 }

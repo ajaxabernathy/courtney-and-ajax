@@ -25,7 +25,7 @@ nav a {
 }
 
 .text-body {
-  @apply font-helvetica-neue text-black text-[18px] md:text-[24px] leading-[120%] md:leading-[140%] tracking-[0%];
+  @apply font-helvetica-neue text-[18px] md:text-[24px] leading-[120%] md:leading-[140%] tracking-[0%];
 }
 
 .text-box-header {
@@ -37,7 +37,7 @@ nav a {
 }
 
 .hero-text {
-  @apply font-arial-narrow uppercase text-black text-[20px] md:text-[38px] tracking-[9%] leading-[1.2] ml-[12%] md:ml-[240px] mt-[58px] md:mt-[165px];
+  @apply font-arial-narrow uppercase text-[20px] md:text-[38px] tracking-[9%] leading-[1.2] ml-[12%] md:ml-[240px] mt-[58px] md:mt-[165px];
 }
 
 .hero-text-center {
