@@ -15,7 +15,7 @@ export default function Home() {
           playsInline
           width={1000}
           height={562}
-          className="md:hidden w-full h-auto pt-[48px] pb-[58px]"
+          className="md:hidden w-full h-auto"
         >
           <source src="/video/hero-animation-mobile.mp4" type="video/mp4" />
         </video>
@@ -35,7 +35,7 @@ export default function Home() {
         <h1 className="sr-only">Ajax and Courtney</h1>
       </div>
 
-      <div className="flex justify-center mt-[32px] md:mt-[231px] px-4">
+      <div className="flex justify-center mt-[104px] md:mt-[231px] px-4">
         <Image
           src="/vectors/please-join-us.webp"
           alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
@@ -49,16 +49,16 @@ export default function Home() {
         loop
         muted
         playsInline
-        className="w-[198px] md:w-[372px] h-auto mt-[74px] md:mt-[140px] mx-auto"
+        className="w-[198px] md:w-[372px] h-auto mt-[42px] md:mt-[140px] mx-auto"
       >
         <source src="/video/wedding-birds.mp4" type="video/mp4" />
       </video>
 
-      <div className="flex justify-center mt-[96px] md:mt-[232px]">
+      <div className="flex justify-center mt-[74px] md:mt-[232px]">
         <HeroFrame />
       </div>
 
-      <div className="mt-[96px] md:mt-[236px]">
+      <div className="mt-[94px] md:mt-[236px]">
         <TextBlock
           offset
           heading="How it began"
@@ -69,7 +69,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="flex md:flex-row flex-col-reverse gap-[57px] md:mt-[120px]">
+      <div className="flex md:flex-row flex-col-reverse gap-[57px] mt-[74px] md:mt-[120px]">
         <div className="w-full md:w-[461px]">
           <Image
             src="/images/imessage.webp"
@@ -102,14 +102,13 @@ export default function Home() {
       <div className="mt-[74px] md:mt-[98px]">
         <TextBlock
           body={[
-            "Over the next eight years, we traveled from Mexico to Scotland to Greece, weathered a pandemic, adopted a cat, made three moves, including one across state lines, welcomed seven nieces and nephews with one more on the way, celebrated eight Christmases and four Passovers, and entered our thirties together.",
-
-            "Then, on a beach in Point Reyes, California, Ajax asked Courtney to marry him and here we are!",
+            "After a few months of missed connections and persistant invites to Ajax’s shows, they finally went on their first date, getting cocktails at a cool Williamsburg bar, Donna. Courtney remembers nervously getting ready with Annie in their shared apartment while Ajax remembers... The two were smitten after this hangout, but had a torterous month apart when Ajax went on tour with his band. Somehow that single night held us over for that entire month and when Ajax returned, they reunited at his show.",
+            "Over the next eight years, we traveled from Mexico to Scotland to Greece, weathered a pandemic, adopted a cat, made three moves, including one across state lines, welcomed seven nieces and nephews with one more on the way, celebrated eight Christmases, a few Passovers, and entered our thirties together. Then, on a beach in Point Reyes, California, Ajax asked Courtney to marry him and here we are!",
           ]}
         />
       </div>
 
-      <div className="mt-[96px] md:mt-[203px]">
+      <div className="mt-[74px] md:mt-[203px]">
         <TextBlock
           offset
           heading="Why Gramvousa?"
@@ -121,7 +120,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="mt-[126px] md:mt-[64px]">
+      <div className="mt-[74px] md:mt-[64px]">
         <ImageGrid
           topImage={{ src: "/images/gram-3.webp", alt: "Placeholder" }}
           bottomLeftImage={{
@@ -135,7 +134,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row items-center gap-[64px] md:gap-12 mb-[152px] md:mt-[164px]">
+      <div className="flex flex-col-reverse md:flex-row items-center gap-[64px] md:gap-12 mb-[90px] mt-[125px] md:mt-[164px]">
         <p className="text-body max-w-[432px]">
           We cannot wait to share this beautiful place, this incredible food,
           and plenty of wine with all of you. Cheers!{" "}
