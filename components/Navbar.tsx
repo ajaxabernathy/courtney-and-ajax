@@ -24,8 +24,6 @@ export const Navbar = () => {
   const openButtonRef = useRef<HTMLButtonElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
-  const isHome = pathname === "/";
-
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Itinerary", href: "/itinerary" },
@@ -78,7 +76,7 @@ export const Navbar = () => {
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
             width={119}
             height={166}
-            className={`${isHome ? "hidden" : ""} mx-auto max-w-[39px]`}
+            className={`mx-auto max-w-[39px]`}
           />
         </Link>
 

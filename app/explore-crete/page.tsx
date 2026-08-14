@@ -286,10 +286,18 @@ export default function ExploreCrete() {
 
         <div className="mt-[0px] md:-mt-[32px]">
           <Image
+            src="/images/champers-m.webp"
+            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            width={1280}
+            height={789}
+            className="md:hidden"
+          />
+          <Image
             src="/images/champers.webp"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
             width={1280}
             height={789}
+            className="hidden md:block"
           />
         </div>
 

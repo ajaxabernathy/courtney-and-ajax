@@ -21,6 +21,10 @@ nav a {
   @apply no-underline;
 }
 
+nav a[aria-current="page"] {
+  @apply underline underline-offset-4;
+}
+
 .wrapper {
   @apply w-full max-w-[1280px] mx-auto px-5 md:px-16;
 }
