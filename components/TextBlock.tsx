@@ -21,7 +21,7 @@ export const TextBlock = ({
               ? "text-box-header pl-[12%] md:pl-[19.5%]"
               : "text-box-header-sm"
           }
-            ${hero ? "mt-[56px] md:mt-[148px]" : ""}`}
+            ${hero ? "mt-[58px] md:mt-[164px]" : ""}`}
         >
           {heading}
         </p>

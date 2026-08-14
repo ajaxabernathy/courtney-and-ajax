@@ -250,13 +250,14 @@ export default function ExploreCrete() {
             hero
             heading="Explore Crete"
             body={[
-              "WE CAME TO CRETE looking for rest and found much more than we expected. From the moment we landed, our nervous systems softened, our pace slowed, and Crete began to feel like exactly where we were meant to be. We fell in love with the balance of it all — good food and untamed landscapes, restful days and unexpected adventures, awe-inspiring gorges, secret caves and the scent of herbs warmed by the sun.",
-              "Most of all, we fell in love with the SPIRIT OF CRETE and the warmth of its people. It means so much to return to a place that feels so right and to experience it with the people we love most. We hope this journey offers each of you a sense of DISCOVERY, BEAUTY, AND CONNECTION — and memories that stay with us long after we leave.",
+              "We came to Crete looking for a little rest and ended up falling for the whole place. The pace slowed, the food was incredible, and every day seemed to come with some combination of beautiful beaches, winding roads, hidden caves, mountain views, and herbs warming in the sun.",
+
+              "What stayed with us most, though, was the warmth of the people and the feeling of the island itself. Crete felt easy, generous, and full of character. We’re so excited to come back and share it with the people we love most, and we hope you leave with a few favorite places, a few good stories, and memories that stay with us long after we leave.",
             ]}
           />
         </div>
 
-        <div className="ml-auto md:-mr-[8%] md:pr-8 mt-[34px] md:mt-[74px]">
+        <div className="ml-auto md:-mr-[8%] md:pr-8 mt-[34px] md:mt-[96px]">
           <Image
             src="/images/courtney-sheep.webp"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
@@ -267,7 +268,7 @@ export default function ExploreCrete() {
 
         <div className="mt-[32px] md:-mt-[32px]">
           <Image
-            src="/vectors/we-hope.webp"
+            src="/vectors/we-hope.png"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
             width={917}
             height={377}
@@ -283,7 +284,7 @@ export default function ExploreCrete() {
           />
         </div>
 
-        <div className="mt-[0px] md:mt-[0px]">
+        <div className="mt-[0px] md:-mt-[32px]">
           <Image
             src="/images/champers.webp"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
@@ -296,9 +297,9 @@ export default function ExploreCrete() {
           <Image
             src="/vectors/fish-lockup-desktop.webp"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
-            width={1092}
+            width={1137}
             height={234}
-            className="hidden md:block ml-auto"
+            className="hidden md:block"
           />
 
           <Image

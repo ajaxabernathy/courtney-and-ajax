@@ -17,6 +17,12 @@ const arialNarrow = localFont({
   display: "swap",
 });
 
+const wagramSlab = localFont({
+  src: "../public/fonts/WagramSlab.woff2",
+  variable: "--font-wagram-slab",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: {
     default: "Courtney & Ajax",
@@ -30,7 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${cousine.variable} ${arialNarrow.variable} h-full antialiased`}
+      className={`${cousine.variable} ${arialNarrow.variable} ${wagramSlab.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <Navbar />

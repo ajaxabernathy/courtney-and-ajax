@@ -10,6 +10,7 @@
   --font-arial-narrow: var(--font-arial-narrow), Arial, sans-serif;
   --font-helvetica-neue: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-cousine: var(--font-cousine);
+  --font-wagram-slab: var(--font-wagram-slab), Arial, sans-serif;
 }
 
 a {
@@ -25,11 +26,11 @@ nav a {
 }
 
 .text-body {
-  @apply font-helvetica-neue text-[16px] md:text-[24px] leading-[140%] md:leading-[140%] tracking-[0%] text-justify;
+  @apply font-wagram-slab text-[16px] md:text-[24px] leading-[140%] md:leading-[140%] tracking-[0%] text-justify;
 }
 
 .text-body-sm {
-  @apply font-helvetica-neue text-[16px] md:text-[18px] leading-[120%] md:leading-[140%] tracking-[0%] text-justify;
+  @apply font-wagram-slab text-[16px] md:text-[18px] leading-[120%] md:leading-[140%] tracking-[0%] text-justify;
 }
 
 .text-box-header {

@@ -14,7 +14,7 @@ export default function TravelAndStay() {
       <div className="wrapper">
         <TextBlock hero offset heading="Travel & Stay" />
 
-        <div className="flex justify-center mt-[54px] md:mt-[116px]">
+        <div className="flex justify-center mt-[54px] md:mt-[137px]">
           <div className="hidden md:block">
             <Image
               src="/vectors/wedding-map-crete.webp"
@@ -34,18 +34,18 @@ export default function TravelAndStay() {
           </div>
         </div>
 
-        <div className="md:mt-[236px] mt-4 mb-[32px] md:mb-[55px]">
+        <div className="mt-4 md:mt-[100px]">
           <TextBlock
             heading="How to get there"
             body={[
               "Our wedding weekend will be based in Kissamos, on the west end of Crete. Many guests will likely start in Athens, and we hope you can spend a day or two exploring the city before heading to Crete. From Athens, both Chania and Heraklion are about a one-hour flight, but you may also find seasonal direct flights from other European cities if you’re looking to work in a fun stopover. If you prefer a slower, more scenic route, you can also take the overnight ferry from Piraeus, Athens’ port, to Chania.",
 
-              "For the wedding weekend, Chania is the easiest option. It’s about a 50-minute drive from Kissamos, where we hope most guests will stay. Heraklion is another option, but it’s about a 2.5-hour drive from the Kissamos area. ",
+              "For the wedding weekend, Chania is the easiest option. It’s about a 50-minute drive from Kissamos. Heraklion is another option, but it’s about a 2.5-hour drive from the Kissamos area. ",
             ]}
           />
         </div>
 
-        <div>
+        <div className="mt-[48px] md:mt-[74px]">
           <Image
             src="/vectors/wedding-map.webp"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
@@ -68,20 +68,20 @@ export default function TravelAndStay() {
         </div>
       </div>
 
-      <div className="relative aspect-[16/9] max-w-[1920px] mx-auto">
-        <Image
-          src="/images/sheep.webp"
-          alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
-          fill
-        />
-      </div>
-
       <div className="mt-[57px] md:mt-[78px] mb-[52px] md:mb-[137px] wrapper">
         <TextBlock
           heading="Transportation"
           body={[
             "The best way to explore Crete is by car, so we recommend renting one in Chania or Heraklion and booking in advance. On the wedding day, shuttles will be provided between Kissamos and Gramvousa Restaurant, so you can leave the driving to us.",
           ]}
+        />
+      </div>
+
+      <div className="relative aspect-[16/9] max-w-[1920px] mx-auto mb-[74px] md:mb-[148px]">
+        <Image
+          src="/images/sheep.webp"
+          alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+          fill
         />
       </div>
     </main>
