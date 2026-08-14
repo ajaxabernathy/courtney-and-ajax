@@ -73,7 +73,7 @@ export const Navbar = () => {
         <Link href={"/"} className="lg:hidden">
           <Image
             src="/vectors/monogram.webp"
-            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            alt="Courtney & Ajax monogram"
             width={119}
             height={166}
             className={`mx-auto max-w-[39px]`}

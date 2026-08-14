@@ -29,9 +29,11 @@ export const TextBlock = ({
 
       {body &&
         body.map((paragraph, index) => (
-          <p key={index} className="text-body text-pretty">
-            {paragraph}
-          </p>
+          <p
+            key={index}
+            className="text-body text-pretty"
+            dangerouslySetInnerHTML={{ __html: paragraph }}
+          />
         ))}
     </div>
   );

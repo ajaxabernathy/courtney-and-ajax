@@ -73,7 +73,7 @@ export default function Home() {
         <div className="w-full md:w-[461px]">
           <Image
             src="/images/imessage.webp"
-            alt="Courtney and Ajax at Wissahickon Park in Philadelphia"
+            alt="Screenshot of Courtney and Ajax's first iMessage conversation"
             width={461}
             height={622}
             className="object-contain mx-auto pr-16 md:pr-12"
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 md:gap-0 md:pt-[100px] lg:pt-[140px]">
           <Image
             src="/vectors/conversation.webp"
-            alt="Courtney and Ajax at Wissahickon Park in Philadelphia"
+            alt="The conversation never ended, the rest is history"
             width={672}
             height={127}
           />
@@ -91,7 +91,7 @@ export default function Home() {
           <div className="w-[41px] h-[43px] md:w-[81px] md:h-[84px] ml-[26%]">
             <Image
               src="/images/color-fly.png"
-              alt="Courtney and Ajax at Wissahickon Park in Philadelphia"
+              alt=""
               width={81}
               height={84}
             />
@@ -102,7 +102,7 @@ export default function Home() {
       <div className="mt-[74px] md:mt-[98px]">
         <TextBlock
           body={[
-            "After a few months of missed connections and persistant invites to Ajax’s shows, they finally went on their first date, getting cocktails at a cool Williamsburg bar, Donna. Courtney remembers nervously getting ready with Annie in their shared apartment while Ajax arrived early to sample the menu in search of a cocktail to recommend. The two were smitten after this hangout, but had a torterous month apart when Ajax went on tour with his band. Somehow that single night held us over for that entire month and when Ajax returned, they reunited at his show.",
+            "After a few months of missed connections and persistent invites to Ajax’s shows, they finally went on their first date, getting cocktails at a cool Williamsburg bar, Donna. Courtney remembers nervously getting ready with Annie in their shared apartment while Ajax arrived early to sample the menu in search of a cocktail to recommend. The two were smitten after this hangout, but had a torturous month apart when Ajax went on tour with his band. Somehow that single night held us over for that entire month and when Ajax returned, they reunited at his show.",
             "Over the next eight years, we traveled from Mexico to Scotland to Greece, weathered a pandemic, adopted a cat, made three moves, including one across state lines, welcomed seven nieces and nephews with one more on the way, celebrated eight Christmases, a few Passovers, and entered our thirties together. Then, on a beach in Point Reyes, California, Ajax asked Courtney to marry him and here we are!",
           ]}
         />
@@ -122,14 +122,17 @@ export default function Home() {
 
       <div className="mt-[74px] md:mt-[64px]">
         <ImageGrid
-          topImage={{ src: "/images/gram-3.webp", alt: "Placeholder" }}
+          topImage={{
+            src: "/images/gram-3.webp",
+            alt: "Terracotta pottery and cushions on a table at Gramvousa Restaurant, overlooking the mountains",
+          }}
           bottomLeftImage={{
             src: "/images/gram-1.webp",
-            alt: "Placeholder",
+            alt: "A couple walking through the gardens at Gramvousa Restaurant",
           }}
           bottomRightImage={{
             src: "/images/gram-2.webp",
-            alt: "Placeholder",
+            alt: "A man seated at an outdoor table at Gramvousa Restaurant, surrounded by flowers",
           }}
         />
       </div>

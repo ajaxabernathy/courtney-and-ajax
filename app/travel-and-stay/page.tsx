@@ -18,7 +18,7 @@ export default function TravelAndStay() {
           <div className="hidden md:block">
             <Image
               src="/vectors/wedding-map-crete.webp"
-              alt="Travel and Stay"
+              alt="Map of Crete showing Kissamos, Chania, and Heraklion"
               width={1114}
               height={380}
             />
@@ -27,7 +27,7 @@ export default function TravelAndStay() {
           <div className="md:hidden">
             <Image
               src="/vectors/wedding-map-crete-mobile.webp"
-              alt="Travel and Stay"
+              alt="Map of Crete showing Kissamos, Chania, and Heraklion"
               width={800}
               height={456}
             />
@@ -48,7 +48,7 @@ export default function TravelAndStay() {
         <div className="mt-[48px] md:mt-[74px]">
           <Image
             src="/vectors/wedding-map-westerncrete.jpg"
-            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            alt="Illustrated map showing driving times from Gramvousa Restaurant to Falasarna, Kavousi, Kissamos, and Chania"
             width={1113}
             height={677}
             className="hidden md:block"
@@ -56,7 +56,7 @@ export default function TravelAndStay() {
 
           <Image
             src="/vectors/wedding-map-westerncrete-m.jpg"
-            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            alt="Illustrated map showing driving times from Gramvousa Restaurant to Falasarna, Kavousi, Kissamos, and Chania"
             width={364}
             height={304}
             className="md:hidden"
@@ -69,9 +69,9 @@ export default function TravelAndStay() {
             body={[
               "We recommend staying in or around Kissamos, where we hope most guests will be based and where wedding-day shuttles will depart. We’ll be staying nearby with our families in Kounoupitsa, just south of town.",
 
-              "There are plenty of villas and Airbnbs in the area, as well as our room block at Kissamos Hotel. There’s also a hotel, Kaliviani Traditional Hotel, right near the restaurant if you prefer to be walking distance.",
+              "There are plenty of villas and Airbnbs in the area. We are looking into a room block at <a href='https://sapphiresuites.gr/' target='__blank'>Sapphire Suites</a> in Kissamos. There’s also a hotel, <a href='https://www.kaliviani.com/' target='__blank'>Kaliviani Traditional Hotel</a>, right near the restaurant if you prefer to be walking distance.",
 
-              "Falasarna and Kavousi are also great options if you plan to arrange your own transportation.  Falasarna is closer to the venue and known for its incredible sunsets, while Kavousi offers a quieter village stay nearby. ",
+              "Falasarna and Kavousi are also great options if you plan to arrange your own transportation. Falasarna is closer to the venue and known for its incredible sunsets, while Kavousi offers a quieter village stay nearby. ",
             ]}
           />
         </div>
@@ -89,7 +89,7 @@ export default function TravelAndStay() {
       <div className="relative aspect-[16/9] max-w-[1920px] mx-auto mb-[74px] md:mb-[148px]">
         <Image
           src="/images/sheep.webp"
-          alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+          alt="A sheep grazing in a field overlooking the sea in Crete"
           fill
         />
       </div>
