@@ -23,13 +23,31 @@ const wagramSlab = localFont({
   display: "swap",
 });
 
+const title = {
+  default: "Courtney & Ajax",
+  template: "%s | Courtney & Ajax",
+};
+const description =
+  "Join Courtney and Ajax for their wedding celebration at Gramvousa Restaurant in Crete, Greece on May 29th.";
+
 export const metadata: Metadata = {
-  title: {
-    default: "Courtney & Ajax",
-    template: "%s | Courtney & Ajax",
+  metadataBase: new URL("https://courtneyandajax.com"),
+  title,
+  description,
+  openGraph: {
+    title: title.default,
+    description,
+    url: "/",
+    siteName: "Courtney & Ajax",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    type: "website",
   },
-  description:
-    "Join Courtney and Ajax for their wedding celebration at Gramvousa Restaurant in Crete, Greece on May 29th.",
+  twitter: {
+    card: "summary_large_image",
+    title: title.default,
+    description,
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
