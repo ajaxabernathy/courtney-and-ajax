@@ -55,7 +55,7 @@ const exploreItems: ExploreCardData[] = [
     title: "Topolia Gorge",
     tag: "Sites",
     body: [
-      "Stop at dramatic Topolia Gorge while driving toward Elafonissi. This is a beautiful drive on it’s own but if you’re feeling adventurous you can park, do a short hike and reach the bottom for a freezing cold (but amazing) swim into a gorge cavern surrounded by waterfalls. We did it!",
+      "Stop at dramatic Topolia Gorge while driving toward Elafonissi. This is a beautiful drive on its own but if you’re feeling adventurous you can park, do a short hike and reach the bottom for a freezing cold (but amazing) swim into a gorge cavern surrounded by waterfalls. We did it!",
     ],
     image: {
       src: "/images/locations/IMG_5750 2 7-8.webp",
@@ -137,7 +137,7 @@ const exploreItems: ExploreCardData[] = [
     tag: "Sites",
     body: [
       [
-        "More in central Crete close to Rethymno, this is a traditional mountain settlement famous for it’s pottery. We ventured over there towards the end of our trip, specifically wanted to check out ",
+        "More in central Crete close to Rethymno, this is a traditional mountain settlement famous for its pottery. We ventured over there towards the end of our trip, specifically wanted to check out ",
         {
           text: "Kerameion Pottery Workshop",
           href: "https://keramion.gr/",
@@ -260,7 +260,7 @@ export default function ExploreCrete() {
         <div className="ml-auto md:-mr-[8%] md:pr-8 mt-[34px] md:mt-[96px]">
           <Image
             src="/images/courtney-sheep.webp"
-            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            alt="Courtney crouching beside a goat on a rocky hillside in Crete"
             width={916}
             height={600}
           />
@@ -269,7 +269,7 @@ export default function ExploreCrete() {
         <div className="mt-[32px] md:-mt-[32px]">
           <Image
             src="/vectors/we-hope.png"
-            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            alt="We hope you taste the thyme honey, smell the wild sage, watch the bees, and breeze through the herbs"
             width={917}
             height={377}
             className="hidden md:block"
@@ -277,7 +277,7 @@ export default function ExploreCrete() {
 
           <Image
             src="/vectors/we-hope-mobile.png"
-            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            alt="We hope you taste the thyme honey, smell the wild sage, watch the bees, and breeze through the herbs"
             width={946}
             height={600}
             className="md:hidden ml-auto"
@@ -287,14 +287,14 @@ export default function ExploreCrete() {
         <div className="mt-[0px] md:-mt-[32px]">
           <Image
             src="/images/champers-m.webp"
-            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            alt="A man popping a bottle of champagne at sunset, and a rocky beach along Crete's coastline"
             width={1280}
             height={789}
             className="md:hidden"
           />
           <Image
             src="/images/champers.webp"
-            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            alt="A man popping a bottle of champagne at sunset, and a rocky beach along Crete's coastline"
             width={1280}
             height={789}
             className="hidden md:block"
@@ -304,7 +304,7 @@ export default function ExploreCrete() {
         <div className="mt-[48px] md:mt-[140px]">
           <Image
             src="/vectors/fish-lockup-desktop.webp"
-            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            alt="Illustration of a fish and drumsticks with text reading “Follow the wind, wander a little, find a beach & make it yours”"
             width={1137}
             height={234}
             className="hidden md:block"
@@ -312,7 +312,7 @@ export default function ExploreCrete() {
 
           <Image
             src="/vectors/fish-lockup-mobile.webp"
-            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            alt="Illustration of a fish and drumsticks with text reading “Follow the wind, wander a little, find a beach & make it yours”"
             width={361}
             height={169}
             className="md:hidden mx-auto"
