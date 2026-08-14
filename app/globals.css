@@ -13,6 +13,17 @@
   --font-wagram-slab: var(--font-wagram-slab), Arial, sans-serif;
 }
 
+@media (min-width: 768px) {
+  html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  html::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 a {
   @apply underline underline-offset-4;
 }
