@@ -8,7 +8,7 @@ const PHOTOS = Array.from(
   (_, i) => `/images/home-hero/Photo${String(i).padStart(2, "0")}.webp`,
 );
 
-const INTERVAL_MS = 4000;
+const INTERVAL_MS = 2500;
 
 export const HeroFrame = () => {
   const [index, setIndex] = useState(0);
