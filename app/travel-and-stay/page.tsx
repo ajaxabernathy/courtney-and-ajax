@@ -47,10 +47,19 @@ export default function TravelAndStay() {
 
         <div className="mt-[48px] md:mt-[74px]">
           <Image
-            src="/vectors/wedding-map.webp"
+            src="/vectors/wedding-map-westerncrete.jpg"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
             width={1113}
             height={677}
+            className="hidden md:block"
+          />
+
+          <Image
+            src="/vectors/wedding-map-westerncrete-m.jpg"
+            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            width={364}
+            height={304}
+            className="md:hidden"
           />
         </div>
 
