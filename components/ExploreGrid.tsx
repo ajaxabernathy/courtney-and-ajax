@@ -8,7 +8,6 @@ export const CATEGORIES = [
   "Food & Drink",
   "History",
   "Sites",
-  "Arts",
 ] as const;
 export type Category = (typeof CATEGORIES)[number];
 
@@ -48,26 +47,28 @@ export const ExploreGrid = ({ items }: ExploreGridProps) => {
 
   return (
     <div className="px-[10px] md:px-12">
-      <div className="flex flex-wrap gap-x-2 font-cousine uppercase text-[14px] tracking-[8%] -mb-[30px]">
+      <div className="font-cousine uppercase text-[14px] tracking-[8%]">
         <span>Filter by:</span>
-        {CATEGORIES.map((category, index) => (
-          <span key={category} className="flex gap-2">
-            <button
-              type="button"
-              onClick={() => toggleTag(category)}
-              aria-pressed={activeTag === category}
-              className={`cursor-pointer uppercase ${
-                activeTag === category ? "underline" : ""
-              }`}
-            >
-              {category}
-            </button>
-            {index < CATEGORIES.length - 1 && <span>|</span>}
-          </span>
-        ))}
+        <div className="mt-1 flex flex-wrap gap-x-2 font-cousine">
+          {CATEGORIES.map((category, index) => (
+            <span key={category} className="flex gap-2">
+              <button
+                type="button"
+                onClick={() => toggleTag(category)}
+                aria-pressed={activeTag === category}
+                className={`cursor-pointer uppercase ${
+                  activeTag === category ? "underline" : ""
+                }`}
+              >
+                {category}
+              </button>
+              {index < CATEGORIES.length - 1 && <span>|</span>}
+            </span>
+          ))}
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-12 mt-[72px]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-12 mt-[22px] md:mt-[36px]">
         {visibleItems.map((item) => (
           <ExploreCard key={item.title} {...item} />
         ))}

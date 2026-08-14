@@ -134,7 +134,7 @@ const exploreItems: ExploreCardData[] = [
   },
   {
     title: "Margarites Village",
-    tag: "Arts",
+    tag: "Sites",
     body: [
       [
         "More in central Crete close to Rethymno, this is a traditional mountain settlement famous for it’s pottery. We ventured over there towards the end of our trip, specifically wanted to check out ",
@@ -293,7 +293,7 @@ export default function ExploreCrete() {
           />
         </div>
 
-        <div className="mt-[4px] md:mt-[140px]">
+        <div className="mt-[48px] md:mt-[140px]">
           <Image
             src="/vectors/fish-lockup-desktop.webp"
             alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."

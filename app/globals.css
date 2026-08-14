@@ -26,11 +26,11 @@ nav a {
 }
 
 .text-body {
-  @apply font-wagram-slab text-[16px] md:text-[24px] leading-[140%] md:leading-[140%] tracking-[0%] text-justify;
+  @apply font-wagram-slab text-[16px] md:text-[24px] leading-[140%] tracking-[-2%] text-justify;
 }
 
 .text-body-sm {
-  @apply font-wagram-slab text-[16px] md:text-[18px] leading-[120%] md:leading-[140%] tracking-[0%] text-justify;
+  @apply font-wagram-slab text-[16px] md:text-[18px] leading-[140%] tracking-[-2%] text-justify;
 }
 
 .text-box-header {
