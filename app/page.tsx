@@ -114,7 +114,7 @@ export default function Home() {
           heading="Why Gramvousa?"
           body={[
             "When we travel, we’re drawn to places with character, history, and warmth, which is exactly why Crete really stuck with us after we left. Gramvousa Restaurant embodied everything we loved about the island, so much so that we ate there twice.",
-            "When we told one of our favorite staff members at the hotel that we had been, he convinced us to go back with him and see the property through his eyes. After a raki-filled lunch, he walked us around, picking herbs for us to smell and pointing out zucchini and tomatoes growing nearby. Then we noticed a few event tables outside and thought, huh... people must have parties here.",
+            "When we told one of our favorite staff members at our hotel that we had been, he offered us to go back with him and see the property through his eyes. After a Raki-filled lunch, he walked us around, picking herbs for us to smell and pointing out all these fun herbs and variations of things we had never heard of. Then we noticed a few event tables outside and thought, huh... people must have parties here.",
             "We didn’t think much more of it until we floated the idea of getting married there to our families, and their excitement made the decision feel easy. So... here we are. Wish us luck!",
           ]}
         />

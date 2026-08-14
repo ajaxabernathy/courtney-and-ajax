@@ -1,4 +1,6 @@
 "use client";
+import Link from "next/link";
+import Image from "next/image";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
@@ -21,6 +23,8 @@ export const Navbar = () => {
   const navRef = useRef<HTMLElement>(null);
   const openButtonRef = useRef<HTMLButtonElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
+
+  const isHome = pathname === "/";
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -65,9 +69,19 @@ export const Navbar = () => {
     <nav
       ref={navRef}
       aria-label="Main"
-      className="relative md:max-w-[1065px] w-full mx-auto uppercase font-arial-narrow text-[16px] tracking-[9%] px-5"
+      className="relative md:max-w-[1065px] w-full mx-auto uppercase font-arial-narrow text-[16px] tracking-[9%] pl-2 lg:pl-5 pr-5"
     >
-      <div className="h-[51px] flex items-center">
+      <div className="lg:h-[51px] py-2 lg:py-0 flex items-center">
+        <Link href={"/"} className="lg:hidden">
+          <Image
+            src="/vectors/monogram.webp"
+            alt="Please join us for our wedding celebration at Gramvousa Restaurant, May 29th, with our family and friends, in Crete, Greece."
+            width={119}
+            height={166}
+            className={`${isHome ? "hidden" : ""} mx-auto max-w-[39px]`}
+          />
+        </Link>
+
         <button
           ref={openButtonRef}
           className="ml-auto lg:hidden uppercase cursor-pointer"
@@ -103,7 +117,7 @@ export const Navbar = () => {
             exit="hidden"
             className="absolute inset-0 bg-[#0655BB] h-screen z-10 px-5"
           >
-            <div className="w-full h-[51px] flex">
+            <div className="w-full h-[69.16px] flex">
               <button
                 ref={closeButtonRef}
                 className="uppercase cursor-pointer text-white ml-auto"
