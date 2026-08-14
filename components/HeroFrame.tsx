@@ -21,7 +21,7 @@ export const HeroFrame = () => {
   }, []);
 
   return (
-    <div className="relative w-full max-w-[1090px] aspect-[2000/1288] md:-mr-[76px] md:scale-none scale-[1.1] -ml-8 md:ml-0">
+    <div className="relative w-full max-w-[1090px] aspect-[2000/1288] md:-mr-[76px]">
       <Image
         src={PHOTOS[index]}
         alt="Courtney and Ajax"

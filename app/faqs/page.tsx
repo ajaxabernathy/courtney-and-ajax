@@ -36,7 +36,7 @@ const faqItems = [
   {
     question: "Can we RSVP now?",
     answer: [
-      "Yes! RSVPs are officially open. Please submit your response through the RSVP page.",
+      "Soon! RSVPs will be open in the coming weeks. We’ll keep everyone in the loop.",
     ],
   },
   {
