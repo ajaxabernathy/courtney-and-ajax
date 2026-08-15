@@ -60,7 +60,6 @@ export default function Home() {
 
       <div className="mt-[94px] md:mt-[236px]">
         <TextBlock
-          offset
           heading="How it began"
           body={[
             "Our story began in New York City on a whim, with a little persistence from our good friend Jennie. One night, while visiting, she convinced Courtney and Kim to make a 40-minute trek across Brooklyn at midnight to meet Ajax, her best friend, Alice’s, little brother. Courtney reluctantly agreed, having no idea the journey would change her life.",
@@ -89,12 +88,7 @@ export default function Home() {
           />
 
           <div className="w-[41px] h-[43px] md:w-[81px] md:h-[84px] ml-[26%]">
-            <Image
-              src="/images/color-fly.png"
-              alt=""
-              width={81}
-              height={84}
-            />
+            <Image src="/images/color-fly.png" alt="" width={81} height={84} />
           </div>
         </div>
       </div>
@@ -110,7 +104,6 @@ export default function Home() {
 
       <div className="mt-[74px] md:mt-[203px]">
         <TextBlock
-          offset
           heading="Why Gramvousa?"
           body={[
             "When we travel, we’re drawn to places with character, history, and warmth, which is exactly why Crete really stuck with us after we left. Gramvousa Restaurant embodied everything we loved about the island, so much so that we ate there twice.",
