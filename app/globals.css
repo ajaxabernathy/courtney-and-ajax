@@ -49,7 +49,7 @@ nav a[aria-current="page"] {
 }
 
 .text-box-header {
-  @apply font-arial-narrow text-[20px] md:text-[38px] uppercase tracking-[9%];
+  @apply font-wagram-slab text-[20px] md:text-[30px] uppercase tracking-[9%];
 }
 
 .text-box-header-sm {
@@ -61,7 +61,7 @@ nav a[aria-current="page"] {
 }
 
 .hero-text-center {
-  @apply font-arial-narrow uppercase text-black text-[38px] tracking-[9%] leading-[1.2] text-center max-w-[704px] mx-auto;
+  @apply font-wagram-slab uppercase text-black text-[38px] tracking-[9%] leading-[1.2] text-center max-w-[704px] mx-auto;
 }
 
 .story-order {
