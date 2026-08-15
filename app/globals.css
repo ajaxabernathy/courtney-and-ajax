@@ -49,7 +49,7 @@ nav a[aria-current="page"] {
 }
 
 .text-box-header {
-  @apply font-wagram-slab text-[20px] md:text-[38px] uppercase tracking-[9%];
+  @apply font-wagram-slab text-[20px] md:text-[30px] uppercase tracking-[9%];
 }
 
 .text-box-header-sm {
