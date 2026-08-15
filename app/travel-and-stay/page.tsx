@@ -67,7 +67,7 @@ export default function TravelAndStay() {
           <TextBlock
             heading="Where to Stay"
             body={[
-              "We hope most guests will be based in or around Kissamos, where wedding-day shuttles will depart. We’ll be staying with our families neary in Kounoupitsa, just south of town.",
+              "We hope most guests will be based in or around Kissamos, where wedding-day shuttles will depart. We’ll be staying with our families nearby in Kounoupitsa, just south of town.",
 
               "We recommend <a href='https://sapphiresuites.gr/' target='__blank'>Sapphire Suites</a>, two neighboring hotels in Kissamos. The rooms are comfortable and include helpful amenities like a kitchenette.",
 
