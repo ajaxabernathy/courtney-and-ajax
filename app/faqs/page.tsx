@@ -40,6 +40,12 @@ const faqItems = [
     ],
   },
   {
+    question: "Registry & Gifts",
+    answer: [
+      "Your presence with us in Greece means more than we can say, and celebrating together is truly the best gift we could receive. We’re incredibly grateful to everyone making the journey to be there. If you would still like to give a gift, we’ll be creating a registry in the coming months.",
+    ],
+  },
+  {
     question: "Do I need a passport?",
     answer: [
       "Yes! All U.S. guests will need a valid passport to travel to Greece. Your passport must remain valid for at least three months after your planned departure from Greece, although renewing earlier is always a good idea.",

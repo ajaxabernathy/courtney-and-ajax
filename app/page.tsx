@@ -96,8 +96,8 @@ export default function Home() {
       <div className="mt-[74px] md:mt-[98px]">
         <TextBlock
           body={[
-            "After a few months of missed connections and persistent invites to Ajax’s shows, they finally went on their first date, getting cocktails at a cool Williamsburg bar, Donna. Courtney remembers nervously getting ready with Annie in their shared apartment while Ajax arrived early to sample the menu in search of a cocktail to recommend. The two were smitten after this hangout, but had a torturous month apart when Ajax went on tour with his band. Somehow that single night held us over for that entire month and when Ajax returned, they reunited at his show.",
-            "Over the next eight years, we traveled from Mexico to Scotland to Greece, weathered a pandemic, adopted a cat, made three moves, including one across state lines, welcomed seven nieces and nephews with one more on the way, celebrated eight Christmases, a few Passovers, and entered our thirties together. Then, on a beach in Point Reyes, California, Ajax asked Courtney to marry him and here we are!",
+            "After a few months of missed connections and persistent invites to Ajax’s shows, they finally went on their first date, getting cocktails at a cool Williamsburg bar, Donna. Courtney remembers nervously getting ready with Annie in their shared apartment while Ajax arrived early to sample the menu in search of a cocktail to recommend. The two were smitten after this hangout, but had a torturous month apart when Ajax went on tour with his band. Somehow that single night held them over for that entire month and when Ajax returned, they reunited at his show.",
+            "Over the next eight years, they traveled from Mexico to Scotland to Greece, weathered a pandemic, adopted a cat, made three moves, including one across state lines, welcomed seven nieces and nephews with one more on the way, celebrated eight Christmases, a few Passovers, and entered our thirties together. Then, on a beach in Point Reyes, California, Ajax asked Courtney to marry him and here we are!",
           ]}
         />
       </div>
@@ -107,7 +107,7 @@ export default function Home() {
           heading="Why Gramvousa?"
           body={[
             "When we travel, we’re drawn to places with character, history, and warmth, which is exactly why Crete really stuck with us after we left. Gramvousa Restaurant embodied everything we loved about the island, so much so that we ate there twice.",
-            "When we told one of our favorite staff members at our hotel that we had been, he offered us to go back with him and see the property through his eyes. After a Raki-filled lunch, he walked us around, picking herbs for us to smell and pointing out all these fun herbs and variations of things we had never heard of. Then we noticed a few event tables outside and thought, huh... people must have parties here.",
+            "When we told our favorite staff member, Georgilakis Giorgos, that we had been, he offered us to go back with him and see the property through his eyes. After a Raki-filled lunch, he walked us around, picking herbs for us to smell and pointing out all these fun herbs and variations of things we had never heard of. Then we noticed a few event tables outside and thought, huh... people must have parties here.",
             "We didn’t think much more of it until we floated the idea of getting married there to our families, and their excitement made the decision feel easy. So... here we are. Wish us luck!",
           ]}
         />
