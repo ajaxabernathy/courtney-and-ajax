@@ -67,9 +67,13 @@ export default function TravelAndStay() {
           <TextBlock
             heading="Where to Stay"
             body={[
-              "We recommend staying in or around Kissamos, where we hope most guests will be based and where wedding-day shuttles will depart. We’ll be staying nearby with our families in Kounoupitsa, just south of town.",
+              "We hope most guests will be based in or around Kissamos, where wedding-day shuttles will depart. We’ll be staying with our families nearby in Kounoupitsa, just south of town.",
 
-              "There are plenty of villas and Airbnbs in the area. We are looking into a room block at <a href='https://sapphiresuites.gr/' target='__blank'>Sapphire Suites</a> in Kissamos. There’s also a hotel, <a href='https://www.kaliviani.com/' target='__blank'>Kaliviani Traditional Hotel</a>, right near the restaurant if you prefer to be walking distance.",
+              "We recommend <a href='https://sapphiresuites.gr/' target='__blank'>Sapphire Suites</a>, two neighboring hotels in Kissamos. The rooms are comfortable and include helpful amenities like a kitchenette.",
+
+              "We’ll share more information about shuttle buses soon, but we’re hoping to keep everyone fairly central around this area, as it will likely be the main pickup point. Feel free to explore other hotels or rentals nearby if something else catches your eye!",
+
+              "Another lovely option is <a href='https://www.kaliviani.com/' target='__blank'>Kaliviani Traditional Hotel</a>, a small hotel within walking distance of Gramvousa, for anyone looking for something a little quieter and more tucked away.",
 
               "Falasarna and Kavousi are also great options if you plan to arrange your own transportation. Falasarna is closer to the venue and known for its incredible sunsets, while Kavousi offers a quieter village stay nearby. ",
             ]}
