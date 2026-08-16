@@ -166,11 +166,16 @@ const exploreItems: ExploreCardData[] = [
     },
   },
   {
-    title: "Ammoudi Beach",
+    title: "Paralia Ammoudi",
     tag: "Beaches",
     body: [
       [
-        "This was our favorite place. The south side of Crete features beaches that are much more private. This one we discovered had the most amazing taverna steps from the sand. More on this next 👉 (see ",
+        "This was ",
+        {
+          text: "our favorite place",
+          href: "https://maps.app.goo.gl/JnDeWzy2cd1W37n1A?g_st=i&utm_campaign=ac-im",
+        },
+        ". The south side of Crete features beaches that are much more private. This one we discovered had the most amazing taverna steps from the sand. More on this next (see ",
         {
           text: "Chyma Sto Kyma",
           href: "https://www.google.com/maps/place/Chyma+Sto+Kyma/@35.1709849,24.4162288,17z/data=!3m1!4b1!4m6!3m5!1s0x149b6f6d91b12e7f:0x7e955819a8801e6d!8m2!3d35.170985!4d24.4210997!16s%2Fg%2F11gmvw6xzk",

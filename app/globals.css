@@ -53,7 +53,7 @@ nav a[aria-current="page"] {
 }
 
 .text-box-header-sm {
-  @apply font-arial-narrow text-[18px] md:text-[28px] uppercase tracking-[9%];
+  @apply font-wagram-slab font-medium text-[18px] md:text-[24px] uppercase tracking-[6%];
 }
 
 .hero-text {

@@ -36,9 +36,11 @@ const FAQItem = ({ question, answer }: FAQItemData) => {
           >
             <div className="flex flex-col gap-4 mt-2">
               {answer.map((paragraph, index) => (
-                <p key={index} className="text-body">
-                  {paragraph}
-                </p>
+                <p
+                  key={index}
+                  className="text-body"
+                  dangerouslySetInnerHTML={{ __html: paragraph }}
+                />
               ))}
             </div>
           </motion.div>
