@@ -31,7 +31,10 @@ export const Navbar = () => {
     { name: "Explore Crete", href: "/explore-crete" },
     // { name: "Attire", href: "/attire" },
     { name: "FAQs", href: "/faqs" },
-    { name: "RSVP", href: "/rsvp" },
+    {
+      name: "RSVP",
+      href: "https://www.zola.com/wedding/ajaxandcourtney/rsvp",
+    },
     { name: "Registry", href: "/registry" },
   ];
 
@@ -97,6 +100,12 @@ export const Navbar = () => {
               <a
                 href={link.href}
                 aria-current={pathname === link.href ? "page" : undefined}
+                target={link.href.startsWith("http") ? "_blank" : undefined}
+                rel={
+                  link.href.startsWith("http")
+                    ? "noopener noreferrer"
+                    : undefined
+                }
               >
                 {link.name}
               </a>
