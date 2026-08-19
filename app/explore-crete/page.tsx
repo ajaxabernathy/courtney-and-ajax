@@ -21,7 +21,7 @@ const exploreItems: ExploreCardData[] = [
     title: "Falasarna Beach",
     tag: "Beaches",
     body: [
-      "We learned from the locals that this beach is known as Crete’s best sunset. It’s huge and there are plenty of vendors and beach chairs to rent. Park near the north end to find some more intimate spots on the beach between rocky alcoves.",
+      "We learned from the locals that this beach is known for Crete’s best sunsets. It’s huge and there are plenty of vendors and beach chairs to rent. Park near the north end to find some more intimate spots on the beach between rocky alcoves.",
     ],
     image: {
       src: "/images/locations/IMG_5750 2 7-6.webp",
@@ -84,7 +84,7 @@ const exploreItems: ExploreCardData[] = [
       [
         "We really loved our wine tasting at ",
         { text: "PoTolo", href: "https://potolo.gr/" },
-        ". It’s a newer winery that crafts low-intervention wines, started by Athens locals who moved here during the pandemic. Our favorites were the Romeiko, a varietal indigenous to Western Crete. There’s also ",
+        ". It’s a newer winery that crafts low-intervention wines, started by Athens locals who moved here during the pandemic. Our favorite was the Romeiko, a varietal indigenous to Western Crete. There’s also ",
         {
           text: "Manousakis Winery",
           href: "https://www.manousakiswinery.com/",
@@ -137,12 +137,12 @@ const exploreItems: ExploreCardData[] = [
     tag: "Sites",
     body: [
       [
-        "More in central Crete close to Rethymno, this is a traditional mountain settlement famous for its pottery. We ventured over there towards the end of our trip, specifically wanted to check out ",
+        "More in central Crete close to Rethymno, this is a traditional mountain settlement famous for its pottery. We ventured over there towards the end of our trip, specifically to check out ",
         {
           text: "Kerameion Pottery Workshop",
           href: "https://keramion.gr/",
         },
-        " as we saw them at our hotel. We brought home a few special pieces but the town had lots of vendors to check out.",
+        ", since we’d seen their pieces at our hotel. We brought home a few special pieces, but the town had lots of vendors to check out.",
       ],
     ],
     image: {
@@ -156,7 +156,7 @@ const exploreItems: ExploreCardData[] = [
     title: "Preveli Beach",
     tag: "Beaches",
     body: [
-      "A river that flows through a gorge and empties out into the Sea, with a dense palm forest on either side. It’s not an easy hike down by any means, but you can wade through the river once you make it. Bring water and sturdy shoes.",
+      "A river that flows through a gorge and empties out into the sea, with a dense palm forest on either side. It’s not an easy hike down by any means, but you can wade through the river once you make it. Bring water and sturdy shoes.",
     ],
     image: {
       src: "/images/locations/IMG_5750 2 7-2.webp",
@@ -219,7 +219,7 @@ const exploreItems: ExploreCardData[] = [
       [
         "We were lucky to happen upon ",
         { text: "Colombo", href: "https://colombo-chania.gr/" },
-        " for lunch while exploring Chania. Seating is spread outside the restaurant, into the narrow alley where it’s positioned. It has a quintessential old town vibe and the food was incredible–their Cretan salad still makes our stomachs grumble.",
+        " for lunch while exploring Chania. Seating is spread outside the restaurant, into the narrow alley where it’s positioned. It had a quintessential old town vibe and the food was incredible–their Cretan salad still makes our stomachs grumble.",
       ],
     ],
     image: {
@@ -233,7 +233,7 @@ const exploreItems: ExploreCardData[] = [
     title: "Tella Thera",
     tag: "Sites",
     body: [
-      "This design hotel completely blew us away. Every detail was just perfect. The property has a quiet, peaceful feel as the architecture blends into the mountainside, olive trees, and flowering fauna. We ate at the restaurant more than once, and the Black Olive Negroni was our favorite cocktail of the trip, maybe ever. Get the Black Olive Negroni!",
+      "This design hotel completely blew us away. Every detail was just perfect. The property has a quiet, peaceful feel as the architecture blends into the mountainside, olive trees, and flowering flora. We ate at the restaurant more than once, and the Black Olive Negroni was our favorite cocktail of the trip, maybe ever. Get the Black Olive Negroni!",
       "If you're staying nearby or just passing through, it's worth stopping in for a drink or dinner.",
     ],
     image: {
@@ -340,7 +340,7 @@ export default function ExploreCrete() {
         >
           here
         </a>{" "}
-        for our google map with all of the above and more.
+        for our Google map with all of the above and more.
       </p>
     </main>
   );
