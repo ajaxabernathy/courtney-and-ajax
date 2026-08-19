@@ -59,7 +59,7 @@ export default function TravelAndStay() {
             alt="Illustrated map showing driving times from Gramvousa Restaurant to Falasarna, Kavousi, Kissamos, and Chania"
             width={364}
             height={304}
-            className="md:hidden"
+            className="md:hidden w-full"
           />
         </div>
 
