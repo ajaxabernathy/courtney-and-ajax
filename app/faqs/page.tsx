@@ -36,7 +36,7 @@ const faqItems = [
   {
     question: "Can we RSVP now?",
     answer: [
-      "Yes! RSVPs are officially open. Please submit your response through the <a href='https://www.zola.com/wedding/ajaxandcourtney/rsvp' target='__blank'>RSVP page</a>.",
+      "Yes! RSVPs are officially open. Please submit your response through the <a href='https://www.zola.com/wedding/ajaxandcourtney/rsvp' target='_blank' rel='noopener noreferrer'>RSVP page</a>.",
     ],
   },
   {

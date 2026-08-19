@@ -62,7 +62,7 @@ export default function Home() {
         <TextBlock
           heading="How it began"
           body={[
-            "Our story began in New York City on a whim, with a little persistence from our good friend Jennie. One night, while visiting, she convinced Courtney and Kim to make a 40-minute trek across Brooklyn at midnight to meet Ajax, her best friend, Alice’s, little brother. Courtney reluctantly agreed, having no idea the journey would change her life.",
+            "Our story began in New York City on a whim, with a little persistence from our good friend Jennie. One night, while visiting, she convinced Courtney and Kim to make a 40-minute trek across Brooklyn at midnight to meet Ajax, her best friend Alice’s little brother. Courtney reluctantly agreed, having no idea the journey would change her life.",
             "When they arrived, Kim immediately put on YouTube karaoke, and before long everyone was singing “Without Me” by Eminem. Courtney and Ajax, however, struck up a conversation of their own. They wandered over to Ajax’s room, where Courtney admired his collection of special tchotchkes, and the two started talking about the stories behind each one. As the night came to an end, Jennie insisted that Courtney and Ajax exchange phone numbers. Thank you, J!",
           ]}
         />
@@ -97,7 +97,7 @@ export default function Home() {
         <TextBlock
           body={[
             "After a few months of missed connections and persistent invites to Ajax’s shows, they finally went on their first date, getting cocktails at a cool Williamsburg bar, Donna. Courtney remembers nervously getting ready with Annie in their shared apartment while Ajax arrived early to sample the menu in search of a cocktail to recommend. The two were smitten after this hangout, but had a torturous month apart when Ajax went on tour with his band. Somehow that single night held them over for that entire month and when Ajax returned, they reunited at his show.",
-            "Over the next eight years, they traveled from Mexico to Scotland to Greece, weathered a pandemic, adopted a cat, made three moves, including one across state lines, welcomed seven nieces and nephews with one more on the way, celebrated eight Christmases, a few Passovers, and entered our thirties together. Then, on a beach in Point Reyes, California, Ajax asked Courtney to marry him and here we are!",
+            "Over the next eight years, they traveled from Mexico to Scotland to Greece, weathered a pandemic, adopted a cat, made three moves, including one across state lines, welcomed seven nieces and nephews with one more on the way, celebrated eight Christmases, a few Passovers, and entered their thirties together. Then, on a beach in Point Reyes, California, Ajax asked Courtney to marry him and here we are!",
           ]}
         />
       </div>
