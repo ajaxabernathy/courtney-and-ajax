@@ -47,8 +47,13 @@ export const ExploreGrid = ({ items }: ExploreGridProps) => {
 
   return (
     <div className="px-[10px] md:px-12">
+      <h2 className="text-box-header mb-[24px] md:mb-[32px]">
+        Things we loved
+      </h2>
+
       <div className="font-cousine uppercase text-[14px] tracking-[8%]">
         <span>Filter by:</span>
+
         <div className="mt-1 flex flex-wrap gap-x-2 font-cousine">
           {CATEGORIES.map((category, index) => (
             <span key={category} className="flex gap-2">

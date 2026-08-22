@@ -323,11 +323,9 @@ export default function ExploreCrete() {
             className="md:hidden mx-auto"
           />
         </div>
-
-        <h2 className="hero-text pt-[40px]">Things we loved</h2>
       </div>
 
-      <div className="mt-[32px] md:mt-[74px] mb-[187px] md:mb-[390px]">
+      <div className="mt-[74px] md:mt-[158px] mb-[187px] md:mb-[390px]">
         <ExploreGrid items={exploreItems} />
       </div>
 

@@ -69,11 +69,13 @@ export default function TravelAndStay() {
             body={[
               "We hope most guests will be based in or around Kissamos, where wedding-day shuttles will depart. We’ll be staying with our families nearby in Kounoupitsa, just south of town.",
 
-              "We recommend <a href='https://sapphiresuites.gr/' target='_blank' rel='noopener noreferrer'>Sapphire Suites</a>, two neighboring hotels in Kissamos. The rooms are comfortable and include helpful amenities like a kitchenette.",
+              "We recommend <a href='https://sapphiresuites.gr/' target='_blank' rel='noopener noreferrer'>Sapphire Suites</a>, which includes the neighboring Sapphire Blue and Sapphire Horizon properties in Kissamos. The suites are comfortable and spacious, with helpful amenities like kitchenettes.",
+
+              "Wedding guests can contact Sapphire Suites directly for special wedding rates. Please email <a href='mailto:sapphire_suites2021@gmail.com'>here</a> and use the subject line “Perets/Abernathy Wedding – Attn: Eleni.”",
 
               "We’ll share more information about shuttle buses soon, but we’re hoping to keep everyone fairly central around this area, as it will likely be the main pickup point. Feel free to explore other hotels or rentals nearby if something else catches your eye!",
 
-              "Another lovely option is <a href='https://www.kaliviani.com/' target='_blank' rel='noopener noreferrer'>Kaliviani Traditional Hotel</a>, a small hotel within walking distance of Gramvousa, for anyone looking for something a little quieter and more tucked away.",
+              "Another lovely option outside of Kissamos is <a href='https://www.kaliviani.com/' target='_blank' rel='noopener noreferrer'>Kaliviani Traditional Hotel</a>, a small hotel within walking distance of Gramvousa, for anyone looking for something a little quieter and more tucked away.",
 
               "Falasarna and Kavousi are also great options if you plan to arrange your own transportation. Falasarna is closer to the venue and known for its incredible sunsets, while Kavousi offers a quieter village stay nearby. ",
             ]}
