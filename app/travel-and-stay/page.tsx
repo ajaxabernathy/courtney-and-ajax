@@ -71,7 +71,7 @@ export default function TravelAndStay() {
 
               "We recommend <a href='https://sapphiresuites.gr/' target='_blank' rel='noopener noreferrer'>Sapphire Suites</a>, which includes the neighboring Sapphire Blue and Sapphire Horizon properties in Kissamos. The suites are comfortable and spacious, with helpful amenities like kitchenettes.",
 
-              "Wedding guests can contact Sapphire Suites directly for special wedding rates. Please email <a href='mailto:sapphire_suites2021@gmail.com'>here</a> and use the subject line “Perets/Abernathy Wedding – Attn: Eleni.”",
+              "Wedding guests can contact Sapphire Suites directly for special wedding rates. Please email <a href='mailto:sapphire_suites2021@gmail.com?subject=Perets%2FAbernathy%20Wedding%20%E2%80%93%20Attn%3A%20Eleni'>here</a> and use the subject line “Perets/Abernathy Wedding – Attn: Eleni.”",
 
               "We’ll share more information about shuttle buses soon, but we’re hoping to keep everyone fairly central around this area, as it will likely be the main pickup point. Feel free to explore other hotels or rentals nearby if something else catches your eye!",
 
