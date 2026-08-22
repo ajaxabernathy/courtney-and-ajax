@@ -140,14 +140,6 @@ export const Navbar = () => {
                   <a
                     href={link.href}
                     aria-current={pathname === link.href ? "page" : undefined}
-                    target={
-                      link.href.startsWith("http") ? "_blank" : undefined
-                    }
-                    rel={
-                      link.href.startsWith("http")
-                        ? "noopener noreferrer"
-                        : undefined
-                    }
                   >
                     {link.name}
                   </a>
