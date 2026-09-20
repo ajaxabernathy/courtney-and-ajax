@@ -67,13 +67,15 @@ export default function TravelAndStay() {
           <TextBlock
             heading="Where to Stay"
             body={[
-              "We hope most guests will be based in or around Kissamos, where wedding-day shuttles will depart. We’ll be staying with our families nearby in Kounoupitsa, just south of town.",
+              "We recommend staying in or around Kissamos, close to Gramvousa Restaurant and within easy reach of the wedding festivities.",
 
-              "We recommend <a href='https://sapphiresuites.gr/' target='_blank' rel='noopener noreferrer'>Sapphire Suites</a>, which includes the neighboring Sapphire Blue and Sapphire Horizon properties in Kissamos. The suites are comfortable and spacious, with helpful amenities like kitchenettes. Wedding guests can contact Sapphire Suites directly for special wedding rates. Please email <a href='mailto:sapphire_suites2021@gmail.com?subject=Perets%2FAbernathy%20Wedding%20%E2%80%93%20Attn%3A%20Eleni'>here</a> and use the subject line “Perets/Abernathy Wedding – Attn: Eleni.”",
+              "We’ll be staying with our families just south of Kissamos, and we hope many guests will stay nearby so we can keep shuttle service centralized. There are plenty of villas and Airbnbs in the area, as well as beachfront options like <a href='https://www.molosbayhotel.gr/' target='_blank' rel='noopener noreferrer'>Molos Bay Hotel</a> and <a href='https://elenabeach.gr/en/home/' target='_blank' rel='noopener noreferrer'>Elena Beach Hotel</a>. <a href='https://salhotel.gr/' target='_blank' rel='noopener noreferrer'>Sal Hotel</a> is a six-minute drive west.",
 
-              "We’ll share more information about shuttle buses soon, but we’re hoping to keep everyone fairly central around this area, as it will likely be the main pickup point. Feel free to explore other hotels or rentals nearby if something else catches your eye!",
+              "For those who prefer to be within walking distance of the restaurant, <a href='https://www.kaliviani.com/' target='_blank' rel='noopener noreferrer'>Kaliviani Traditional Hotel</a> is a great option. Nearby, Falasarna is known for its beautiful beaches and sunsets, while Kavousi offers a quieter village stay. Both have plenty of Airbnb and villas available.",
 
-              "Another lovely option outside of Kissamos is <a href='https://www.kaliviani.com/' target='_blank' rel='noopener noreferrer'>Kaliviani Traditional Hotel</a>, a small hotel within walking distance of Gramvousa, for anyone looking for something a little quieter and more tucked away. Falasarna and Kavousi are also great options if you plan to arrange your own transportation. Falasarna is closer to the venue and known for its incredible sunsets, while Kavousi offers a quieter village stay nearby. ",
+              "Since it’s currently the busy season in Crete, hotel responses may be a little slower. Next year’s availability may not be posted yet, so we recommend reaching out directly.",
+
+              "While we hope most guests will stay near Kissamos to help create a central location for shuttle service, we completely understand that this is your vacation too! Please stay wherever makes the most sense for your trip, and keep us posted on where you’ll be. We’ll do our best to accommodate shuttle transportation accordingly.",
             ]}
           />
         </div>
