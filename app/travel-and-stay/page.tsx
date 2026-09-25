@@ -69,11 +69,13 @@ export default function TravelAndStay() {
             body={[
               "We recommend staying in or around Kissamos, close to Gramvousa Restaurant and within easy reach of the wedding festivities.",
 
-              "We’ll be staying with our families just south of Kissamos, and we hope many guests will stay nearby so we can keep shuttle service centralized. There are plenty of villas and Airbnbs in the area, as well as beachfront options like <a href='https://www.molosbayhotel.gr/' target='_blank' rel='noopener noreferrer'>Molos Bay Hotel</a> and <a href='https://elenabeach.gr/en/home/' target='_blank' rel='noopener noreferrer'>Elena Beach Hotel</a>. <a href='https://salhotel.gr/' target='_blank' rel='noopener noreferrer'>Sal Hotel</a> is a six-minute drive west.",
+              "We’ll be staying with our families just south of Kissamos, and we hope many of our guests will stay nearby so we can keep shuttle service as centralized as possible. We’ve identified three beachfront hotels close to one another that would make this especially easy: <a href='https://www.molosbayhotel.gr/' target='_blank' rel='noopener noreferrer'>Molos Bay Hotel</a>, <a href='https://elenabeach.gr/en/home/' target='_blank' rel='noopener noreferrer'>Elena Beach Hotel</a>, and <a href='https://salhotel.gr/' target='_blank' rel='noopener noreferrer'>Sal Hotel</a>, which is just a six-minute drive west.",
 
-              "For those who prefer to be within walking distance of the restaurant, <a href='https://www.kaliviani.com/' target='_blank' rel='noopener noreferrer'>Kaliviani Traditional Hotel</a> is a great option. Nearby, Falasarna is known for its beautiful beaches and sunsets, while Kavousi offers a quieter village stay. Both have plenty of Airbnb and villas available.",
+              "There are plenty of other hotels and villas in the area, but staying at one of these three, or within walking distance of them, will make wedding transportation much easier.",
 
-              "Since it’s currently the busy season in Crete, hotel responses may be a little slower. Next year’s availability may not be posted yet, so we recommend reaching out directly.",
+              "For those who prefer to be within walking distance of the restaurant, <a href='https://www.kaliviani.com/' target='_blank' rel='noopener noreferrer'>Kaliviani Traditional Hotel</a> is a great option. Or if you prefer a different area and to arrange your own transport, Falasarna is known for its beautiful beaches and sunsets, while Kavousi offers a quieter village stay. Both have plenty of Airbnb and villas available.",
+
+              "Since it’s currently the busy season in Crete, hotel responses may be a little slower. Next year’s availability may not be posted yet, so we recommend reaching out directly if you don’t see availability online.",
 
               "While we hope most guests will stay near Kissamos to help create a central location for shuttle service, we completely understand that this is your vacation too! Please stay wherever makes the most sense for your trip, and keep us posted on where you’ll be. We’ll do our best to accommodate shuttle transportation accordingly.",
             ]}
